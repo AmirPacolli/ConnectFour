@@ -11,6 +11,8 @@ public class ConnectFourController {
         boolean running = true;
         boolean firstPlayer = true;
         int players;
+
+        // Validation
         do{
             System.out.println("Enter 1 for one player | Enter 2 for two players ");
             while (!sc.hasNextInt()) {
